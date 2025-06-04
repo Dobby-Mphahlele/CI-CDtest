@@ -23,4 +23,4 @@ jobs:
         az deployment sub create \
           --location southafricanorth \
           --template-file rg.bicep \
-          --parameters rgName=testing-env
+          --parameters rgName=third-testing-env

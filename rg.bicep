@@ -19,4 +19,4 @@ az deployment sub create --location southafricanorth --template-file rg.bicep --
 
 Replace <your-resource-group-name> with your desired resource group name.
 */
-az ad sp create-for-rbac --name "bicep-gh-action" --role Contributor --scopes /subscriptions/0af90233-5100-4ba5-bc2a-e6150313623a --sdk-auth
+
